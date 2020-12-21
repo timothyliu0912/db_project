@@ -1,0 +1,12 @@
+{{ define "layout" }}
+<!doctype html>
+<html lang="en">
+    <head>
+        {{ template "head" . }}
+    </head>
+    <body>
+        {{template "navbar" . }}
+        {{ template "content" . }}
+    </body>
+</html>
+{{ end }}
